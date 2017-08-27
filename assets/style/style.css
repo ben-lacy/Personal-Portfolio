@@ -1,9 +1,81 @@
-.navbar{
-    border-bottom: solid 1px #ccc;
+
+/* NAVBAR */
+.navbar-default {
+    background-color: #656565;
+    opacity: 50%;
+    border-bottom: solid 2px #E2CF76;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* NAVBAR <li> LINKS */
+.navbar-default .navbar-nav > li > a {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+/* ACTIVE CLASS <li> LINKS */
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus {
+    color: #E2CF76;
+    background-color: transparent;
+    border: solid 2px #E2CF76;
+}
+ 
+.navbar-default .navbar-nav > .active > a:hover{
+    color: #E2CF76;
+    background-color: transparent;
+}
+
+/* NAVBAR <li> BACKGROUND ON HOVER */
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: silver;
+}
+
+/* NAVBAR <li> HOVER COLOR */
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #E2CF76;
+}
+
+#my-name{
+    color: #E2CF76;
+}
+
+hr{
+    border: solid 2px #E2CF76;
+    margin-top: -5px;
+}
+
+#header-icon{
+    height: 100px;
+    width: 100px;
+    margin-top: -20px;
+}
+
+body{
+    background-image: url('../images/bg-image.jpg');
+    background-position: top, left;
+    background-position-y: -150px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
 }
 
 footer{
     background-color: #f8f8f8;
     padding: 20px;
     border-top: solid 1px #ccc;
+}
+
+#splash-page{
+    height: 100vh;
+    padding: 225px;
+    font-size: 150px;
+    color: white;
+    font-family: 'Russo One', sans-serif;
+    vertical-align: center;
 }
