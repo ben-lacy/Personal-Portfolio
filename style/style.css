@@ -1,54 +1,45 @@
 body, html{
   background-color: #4b4b4b;
   color: white;
-  height: 100%;
-  margin: 0;
+  font-family: 'Play', sans-serif;
 }
 
 /* NAVBAR CUSTOMIZATION */
-  .navbar-default {
+  .navbarTop {
     background-color: transparent;
-    margin-bottom: 0;
+    height: 50px;
     border: none;
     font-weight: bold;
     width: 100%;
   }
 
-  .navbar-header .navbar-brand,
-  .navbar-default .navbar-nav > li > a {
+  .navItem {
+    width: 33.3%;
+    float: left;
+  }
+
+  .navItem > a {
     font-size: 24px;
     color: #fff;
   }
 
-  .navbar-header .navbar-brand:hover,
-  .navbar-default .navbar-nav > li > a:hover{
+  .navItem > a:hover{
     color: #E2CF76;
     text-decoration: underline;
   }
 
-  .navbar-default .navbar-nav > li > a:focus {
+  .navItem > a:focus {
     font-size: 24px;
     color: #fff;
     text-decoration: none;
   }
 
-#welcome{
-  font-family: 'Russo One', sans-serif;
-  padding: 50px
+p{
+  font-size: 24px;
 }
 
 #hello{
-  font-size: 75px;
-  color: #E2CF76;
-}
-
-.selectors{
-  border: solid 2px #E2CF76;
-  font-weight: bold;
-  font-size: 18px;
-  padding: 15px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  font-size: 60px;
 }
 
 .titleBar{
@@ -60,15 +51,4 @@ body, html{
   background-color: #E2CF76;
   color: #333;
   cursor: pointer;
-}
-
-.footer, .push {
-  height: 50px;
-  text-align: center;
-  padding: 15px;
-}
-
-.wrapper {
-  min-height: 100%;
-  margin-bottom: -100px;
 }
