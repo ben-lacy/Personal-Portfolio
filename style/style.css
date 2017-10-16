@@ -1,54 +1,94 @@
 body, html{
-  background-color: #4b4b4b;
-  color: white;
+  padding-top: 80px;
+  background-color: #f1f1f1;
+  color: #333;
   font-family: 'Play', sans-serif;
 }
 
-/* NAVBAR CUSTOMIZATION */
-  .navbarTop {
-    background-color: transparent;
-    height: 50px;
+/* NAVBAR */
+  .navbar-default {
+    background-color: #f5c43f;
     border: none;
     font-weight: bold;
-    width: 100%;
+    box-shadow: 0 5px 6px -3px #999;
   }
 
-  .navItem {
-    width: 33.3%;
-    float: left;
+  .navbar-default .navbar-nav > li > a {
+    font-size: 18px;
+    color: #333;
+    margin-right: 40px;
   }
 
-  .navItem > a {
-    font-size: 24px;
+  .navbar-default .navbar-nav > li > a:hover,
+  .navbar-default .navbar-nav > li > a:focus{
     color: #fff;
-  }
-
-  .navItem > a:hover{
-    color: #E2CF76;
     text-decoration: underline;
   }
 
-  .navItem > a:focus {
-    font-size: 24px;
-    color: #fff;
-    text-decoration: none;
+  .icon-bar
+  {
+    background:#333 !important;
   }
 
-p{
+  .navbar-default .navbar-toggle {
+    background: #f5c43f !important;
+    border: solid 1px #333 !important;
+  }
+
+  .navbar-default .navbar-toggle:hover {
+    background: #f1f1f1 !important;
+  }
+
+  .navbar-collapse.in {
+    background: RGBA(245,196,63,0);
+  }
+
+#banner{
   font-size: 24px;
 }
 
-#hello{
-  font-size: 60px;
-}
-
-.titleBar{
-  background-color: #E2CF76;
-  padding: 5px;
-}
-
-.selectors:hover{
-  background-color: #E2CF76;
-  color: #333;
+#view-projects, 
+#contact-me {
+  margin-top: 30px;
   cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+  border: solid 2px #333;
+  font-weight: bold;
+  background-color: #f1f1f1;
+}
+
+#view-projects:hover,
+#contact-me:hover{
+  background-color: #f5c43f;
+}
+
+.hello{
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.project-box{
+  border: solid 2px #333;
+  height: 200px;
+  margin: 15px;
+  padding: 10px;
+  text-align: left;
+  font-size: 16px;
+}
+
+.project-link{
+  color: #333;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.project-link:hover{
+  color: #f5c43f;
+}
+
+@media screen and (min-width: 992px){
+  #welcome, #myProjects, #contactMe {
+    height: 90vh;
+  }
 }
