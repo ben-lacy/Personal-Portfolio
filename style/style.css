@@ -1,46 +1,38 @@
 body, html{
-  padding-top: 80px;
   background-color: #f1f1f1;
   color: #333;
   font-family: 'Play', sans-serif;
+  font-size: 18px;
 }
 
 /* NAVBAR */
-  .navbar-default {
+  .simpleNav {
     background-color: #f5c43f;
-    border: none;
     font-weight: bold;
+    width: 100%;
+    height: 60px;
     box-shadow: 0 5px 6px -3px #999;
+    position: fixed;
+    top: 0;
+    z-index: 3;
   }
 
-  .navbar-default .navbar-nav > li > a {
-    font-size: 18px;
+  .nav-item{
+    width: 33.3%;
+    text-align: center;
+    float: left;
+    font-size: 24px;
+    padding: 15px;
+  }
+
+  .nav-item > a {
     color: #333;
-    margin-right: 40px;
   }
 
-  .navbar-default .navbar-nav > li > a:hover,
-  .navbar-default .navbar-nav > li > a:focus{
+  .nav-item > a:hover,
+  .nav-item > a:focus{
     color: #fff;
     text-decoration: underline;
-  }
-
-  .icon-bar
-  {
-    background:#333 !important;
-  }
-
-  .navbar-default .navbar-toggle {
-    background: #f5c43f !important;
-    border: solid 1px #333 !important;
-  }
-
-  .navbar-default .navbar-toggle:hover {
-    background: #f1f1f1 !important;
-  }
-
-  .navbar-collapse.in {
-    background: RGBA(245,196,63,0);
   }
 
 #banner{
@@ -52,7 +44,6 @@ body, html{
   margin-top: 30px;
   cursor: pointer;
   padding: 10px;
-  font-size: 18px;
   border: solid 2px #333;
   font-weight: bold;
   background-color: #f1f1f1;
@@ -74,7 +65,6 @@ body, html{
   margin: 15px;
   padding: 10px;
   text-align: left;
-  font-size: 16px;
 }
 
 .project-link{
@@ -87,8 +77,29 @@ body, html{
   color: #f5c43f;
 }
 
+.form-group > input {
+  height: 50px;
+  font-size: 18px;
+}
+
+.form-group > textarea{
+  font-size: 18px;
+}
+
+.btn-warning {
+  color: #333;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#welcome, #myProjects, #contactMe {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
 @media screen and (min-width: 992px){
   #welcome, #myProjects, #contactMe {
     height: 90vh;
+    margin-top: 100px;
   }
 }
