@@ -97,6 +97,10 @@ body, html{
   margin-bottom: 20px;
 }
 
+.anchor{
+  padding-top: 60px;
+}
+
 @media screen and (min-width: 992px){
   #welcome, #myProjects, #contactMe {
     height: 90vh;
