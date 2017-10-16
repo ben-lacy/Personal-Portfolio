@@ -1,48 +1,45 @@
-body, html{
+body, html {
   background-color: #f1f1f1;
   color: #333;
   font-family: 'Play', sans-serif;
   font-size: 18px;
 }
+a {
+  color: #333;
+}
 
 /* NAVBAR */
-  .simpleNav {
-    background-color: #f5c43f;
-    font-weight: bold;
-    width: 100%;
-    height: 60px;
-    box-shadow: 0 5px 6px -3px #999;
-    position: fixed;
-    top: 0;
-    z-index: 3;
-  }
+.simpleNav {
+  background-color: #f5c43f;
+  font-weight: bold;
+  width: 100%;
+  height: 60px;
+  box-shadow: 0 5px 6px -3px #999;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+}
 
-  .nav-item{
-    width: 33.3%;
-    text-align: center;
-    float: left;
-    font-size: 24px;
-    padding: 15px;
-  }
-
-  .nav-item > a {
-    color: #333;
-  }
-
-  .nav-item > a:hover,
-  .nav-item > a:focus{
-    color: #fff;
-    text-decoration: underline;
-  }
-
-#banner{
+.nav-item{
+  width: 33.3%;
+  text-align: center;
+  float: left;
   font-size: 24px;
+  padding: 15px;
+}
+
+.nav-item > a:hover{
+  color: #fff;
+}
+
+.nav-item > a:focus {
+  color: #333;
+  text-decoration: none;
 }
 
 #view-projects, 
 #contact-me {
   margin-top: 30px;
-  cursor: pointer;
   padding: 10px;
   border: solid 2px #333;
   font-weight: bold;
@@ -50,8 +47,10 @@ body, html{
 }
 
 #view-projects:hover,
-#contact-me:hover{
+#contact-me:hover {
   background-color: #f5c43f;
+  color: #333;
+  text-decoration: underline;
 }
 
 .hello{
@@ -68,7 +67,6 @@ body, html{
 }
 
 .project-link{
-  color: #333;
   font-weight: bold;
   text-decoration: underline;
 }
@@ -87,18 +85,23 @@ body, html{
 }
 
 .btn-warning {
+  background-color: #f5c43f;
   color: #333;
   font-weight: bold;
   font-size: 18px;
 }
 
-#welcome, #myProjects, #contactMe {
-  margin-top: 30px;
-  margin-bottom: 20px;
+.btn-warning:hover {
+  background-color: #f5c43f;
 }
 
 .anchor{
   padding-top: 60px;
+}
+
+#welcome, #myProjects, #contactMe {
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 @media screen and (min-width: 992px){
