@@ -5,7 +5,10 @@ body, html {
   font-size: 18px;
 }
 
-a {
+a:-webkit-any-link,
+a:-webkit-any-link:hover,
+a:-webkit-any-link:focus {
+  text-decoration: none;
   color: #333;
 }
 
@@ -48,8 +51,6 @@ a {
 
 .welcome-buttons:hover {
   background-color: #f5c43f;
-  color: #333;
-  text-decoration: underline;
 }
 
 .hello{
@@ -67,7 +68,6 @@ a {
 
 .project-link{
   font-weight: bold;
-  text-decoration: underline;
 }
 
 .project-link:hover{
@@ -86,7 +86,6 @@ a {
 .btn-warning {
   background-color: #f5c43f;
   color: #333;
-  font-weight: bold;
   font-size: 18px;
 }
 
