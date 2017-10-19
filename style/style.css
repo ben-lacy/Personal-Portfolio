@@ -1,33 +1,54 @@
-/* ========= */
-/* UNIVERSAL */
-/* ========= */
-body, html {
-  background-color: #f1f1f1;
-  color: #333;
-  font-family: 'Play', sans-serif;
-  font-size: 18px;
-}
-
-a:-webkit-any-link,
-a:-webkit-any-link:hover,
-a:-webkit-any-link:focus {        /* ALL LINKS */
-  text-decoration: none;
-  color: #333;
-}
-
-.banner-text{                     /* SECTION HEADERS */
-  font-size: 50px;
-  font-weight: bold;
-}
-
-.content-div {                    /* SECTION CONTAINERS */
-  margin-top: 60px;
-  margin-bottom: 20px;
-}
-
 /* ============= */
-/* NAVBAR STYLES */
+/* ==UNIVERSAL== */
 /* ============= */
+  body, html {
+    background-color: #f1f1f1;
+    color: #333;
+    font-family: 'Play', sans-serif;
+    font-size: 18px;
+  }
+
+  a:-webkit-any-link,
+  a:-webkit-any-link:hover,
+  a:-webkit-any-link:focus {        /* ALL LINKS */
+    text-decoration: none;
+    color: #333;
+  }
+
+  .banner-text{                     /* SECTION HEADERS */
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  .content-div {                    /* SECTION CONTAINERS */
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }
+
+/* =============== */
+/* ==BACKGROUNDS== */
+/* =============== */
+  #headerBody{
+    background-image: url("");
+    background-repeat: none;
+    background-size: cover;
+  }
+
+  #projectBody{
+    background-image: url("");
+    background-repeat: none;
+    background-size: cover;
+  }
+
+  #contactBody{
+    background-image: url("");
+    background-repeat: none;
+    background-size: cover;
+  }
+
+/* ================= */
+/* ==NAVBAR STYLES== */
+/* ================= */
   .simpleNav {
     background-color: #f5c43f;
     font-weight: bold;
@@ -56,9 +77,9 @@ a:-webkit-any-link:focus {        /* ALL LINKS */
     text-decoration: none;
   }
 
-/* =================== */
-/* LANDING PAGE STYLES */
-/* =================== */
+/* ======================= */
+/* ==LANDING PAGE STYLES== */
+/* ======================= */
   #brand-img{
     width: 200px;
     height: 200px;
@@ -76,9 +97,9 @@ a:-webkit-any-link:focus {        /* ALL LINKS */
     background-color: #f5c43f;
   }
 
-/* ====================== */
-/* PROJECT SECTION STYLES */
-/* ====================== */
+/* ========================== */
+/* ==PROJECT SECTION STYLES== */
+/* ========================== */
   .project-box {
     border: solid 2px #333;
     height: 225px;
@@ -106,38 +127,38 @@ a:-webkit-any-link:focus {        /* ALL LINKS */
 
   /* PROJECT BOX IMG HOVERS */
     #ang-finance:hover {
-      background-image: url("../images/logo-color-PNG-01");
+      background-image: url("../images/logo-color-PNG-01.png");
       background-size: cover;
     }
 
     #inv-master:hover {
-      background-image: url("../images/logo-color-PNG-01");
+      background-image: url("../images/logo-color-PNG-01.png");
       background-size: cover;
     }
 
     #friendr:hover {
-      background-image: url("../images/logo-color-PNG-01");
+      background-image: url("../images/logo-color-PNG-01.png");
       background-size: cover;
     }
 
     #make-the-call:hover {
-      background-image: url("../images/logo-color-PNG-01");
+      background-image: url("../images/logo-color-PNG-01.png");
       background-size: cover;
     }
 
     #trivia-flash:hover {
-      background-image: url("../images/logo-color-PNG-01");
+      background-image: url("../images/logo-color-PNG-01.png");
       background-size: cover;
     }
 
     #rps:hover {
-      background-image: url("../images/logo-color-PNG-01");
+      background-image: url("../images/logo-color-PNG-01.png");
       background-size: cover;
     }
 
-/* ============ */
-/* CONTACT FORM */
-/* ============ */
+/* ================ */
+/* ==CONTACT FORM== */
+/* ================ */
   .contact-imgs {
     height: 50px;
     width: 50px;
@@ -154,12 +175,9 @@ a:-webkit-any-link:focus {        /* ALL LINKS */
     font-size: 18px;
   }
 
-
-
-
-/* ============== */
-/* RESPONSIVENESS */
-/* ============== */
+/* ================== */
+/* ==RESPONSIVENESS== */
+/* ================== */
 @media screen and (max-width: 485px){
   .project-box{
     height: 275px;
