@@ -36,8 +36,12 @@ a:-webkit-any-link:focus {
   color: #fff;
 }
 
-#view-projects, 
-#contact-me {
+.nav-item > a:focus {
+  color: #333;
+  text-decoration: none;
+}
+
+.welcome-buttons {
   margin-top: 30px;
   padding: 10px;
   border: solid 2px #333;
@@ -45,8 +49,7 @@ a:-webkit-any-link:focus {
   background-color: #f1f1f1;
 }
 
-#view-projects:hover,
-#contact-me:hover {
+.welcome-buttons:hover {
   background-color: #f5c43f;
 }
 
@@ -57,7 +60,7 @@ a:-webkit-any-link:focus {
 
 .project-box{
   border: solid 2px #333;
-  height: 200px;
+  height: 250px;
   margin: 15px;
   padding: 10px;
   text-align: left;
