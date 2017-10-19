@@ -1,3 +1,6 @@
+/* ========= */
+/* UNIVERSAL */
+/* ========= */
 body, html {
   background-color: #f1f1f1;
   color: #333;
@@ -7,112 +10,156 @@ body, html {
 
 a:-webkit-any-link,
 a:-webkit-any-link:hover,
-a:-webkit-any-link:focus {
+a:-webkit-any-link:focus {        /* ALL LINKS */
   text-decoration: none;
   color: #333;
 }
 
-hr{
-  border: solid 1px #333;
-  margin: 5px;
-}
-
-#brand-img{
-  width: 200px;
-  height: 200px;
-}
-
-/* NAVBAR */
-.simpleNav {
-  background-color: #f5c43f;
-  font-weight: bold;
-  width: 100%;
-  height: 60px;
-  box-shadow: 0 5px 6px -3px #999;
-  position: fixed;
-  top: 0;
-  z-index: 3;
-}
-
-.nav-item{
-  width: 33.3%;
-  text-align: center;
-  float: left;
-  font-size: 24px;
-  padding: 15px;
-}
-
-.nav-item > a:hover{
-  color: #fff;
-}
-
-.nav-item > a:focus {
-  color: #333;
-  text-decoration: none;
-}
-
-.welcome-buttons {
-  margin-top: 30px;
-  padding: 10px;
-  border: solid 2px #333;
-  font-weight: bold;
-  background-color: #f1f1f1;
-}
-
-.welcome-buttons:hover {
-  background-color: #f5c43f;
-}
-
-.banner-text{
+.banner-text{                     /* SECTION HEADERS */
   font-size: 50px;
   font-weight: bold;
 }
 
-.project-box{
-  border: solid 2px #333;
-  height: 225px;
-  margin: 15px;
-  padding: 15px;
-  padding-top: 0;
-  text-align: center;
-}
-
-.proj-link-div{
-  width: 100%;
-  position: absolute;
-  bottom: 20px;
-  left: 10px;
-}
-
-.project-link{
-  font-weight: bold;
-}
-
-.project-link:hover{
-  color: #f5c43f !important;
-}
-
-.form-group > input,
-.form-group > textarea {
-  font-size: 18px;
-}
-
-.btn-warning, .btn-warning:hover {
-  background-color: #f5c43f;
-  color: #333;
-  font-size: 18px;
-}
-
-.content-div {
+.content-div {                    /* SECTION CONTAINERS */
   margin-top: 60px;
   margin-bottom: 20px;
 }
 
-.contact-imgs {
-  height: 50px;
-  width: 50px;
-}
+/* ============= */
+/* NAVBAR STYLES */
+/* ============= */
+  .simpleNav {
+    background-color: #f5c43f;
+    font-weight: bold;
+    width: 100%;
+    height: 60px;
+    box-shadow: 0 5px 6px -3px #999;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+  }
 
+  .nav-item{
+    width: 33.3%;
+    text-align: center;
+    float: left;
+    font-size: 24px;
+    padding: 15px;
+  }
+
+  .nav-item > a:hover{
+    color: #fff;
+  }
+
+  .nav-item > a:focus {
+    color: #333;
+    text-decoration: none;
+  }
+
+/* =================== */
+/* LANDING PAGE STYLES */
+/* =================== */
+  #brand-img{
+    width: 200px;
+    height: 200px;
+  }
+
+  .welcome-buttons {
+    margin-top: 30px;
+    padding: 10px;
+    border: solid 2px #333;
+    font-weight: bold;
+    background-color: #f1f1f1;
+  }
+
+  .welcome-buttons:hover {
+    background-color: #f5c43f;
+  }
+
+/* ====================== */
+/* PROJECT SECTION STYLES */
+/* ====================== */
+  .project-box {
+    border: solid 2px #333;
+    height: 225px;
+    margin: 15px;
+    padding: 15px;
+    padding-top: 0;
+    text-align: center;
+  }
+
+  .proj-link-div{
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+  }
+
+  hr {
+    border: solid 1px #333;
+    margin: 5px;
+  }
+
+  .project-link:hover{
+    color: #f5c43f !important;
+  }
+
+  /* PROJECT BOX IMG HOVERS */
+    #ang-finance:hover {
+      background-image: url("../images/logo-color-PNG-01");
+      background-size: cover;
+    }
+
+    #inv-master:hover {
+      background-image: url("../images/logo-color-PNG-01");
+      background-size: cover;
+    }
+
+    #friendr:hover {
+      background-image: url("../images/logo-color-PNG-01");
+      background-size: cover;
+    }
+
+    #make-the-call:hover {
+      background-image: url("../images/logo-color-PNG-01");
+      background-size: cover;
+    }
+
+    #trivia-flash:hover {
+      background-image: url("../images/logo-color-PNG-01");
+      background-size: cover;
+    }
+
+    #rps:hover {
+      background-image: url("../images/logo-color-PNG-01");
+      background-size: cover;
+    }
+
+/* ============ */
+/* CONTACT FORM */
+/* ============ */
+  .contact-imgs {
+    height: 50px;
+    width: 50px;
+  }
+
+  .form-group > input,
+  .form-group > textarea {
+    font-size: 18px;
+  }
+
+  .btn-warning, .btn-warning:hover {
+    background-color: #f5c43f;
+    color: #333;
+    font-size: 18px;
+  }
+
+
+
+
+/* ============== */
+/* RESPONSIVENESS */
+/* ============== */
 @media screen and (max-width: 485px){
   .project-box{
     height: 275px;
