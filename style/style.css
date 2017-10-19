@@ -12,6 +12,16 @@ a:-webkit-any-link:focus {
   color: #333;
 }
 
+hr{
+  border: solid 1px #333;
+  margin: 5px;
+}
+
+#brand-img{
+  width: 200px;
+  height: 200px;
+}
+
 /* NAVBAR */
 .simpleNav {
   background-color: #f5c43f;
@@ -53,17 +63,25 @@ a:-webkit-any-link:focus {
   background-color: #f5c43f;
 }
 
-.hello{
-  font-size: 60px;
+.banner-text{
+  font-size: 50px;
   font-weight: bold;
 }
 
 .project-box{
   border: solid 2px #333;
-  height: 250px;
+  height: 225px;
   margin: 15px;
-  padding: 10px;
-  text-align: left;
+  padding: 15px;
+  padding-top: 0;
+  text-align: center;
+}
+
+.proj-link-div{
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
 }
 
 .project-link{
@@ -71,40 +89,64 @@ a:-webkit-any-link:focus {
 }
 
 .project-link:hover{
-  color: #f5c43f;
+  color: #f5c43f !important;
 }
 
-.form-group > input {
-  height: 50px;
+.form-group > input,
+.form-group > textarea {
   font-size: 18px;
 }
 
-.form-group > textarea{
-  font-size: 18px;
-}
-
-.btn-warning {
+.btn-warning, .btn-warning:hover {
   background-color: #f5c43f;
   color: #333;
   font-size: 18px;
 }
 
-.btn-warning:hover {
-  background-color: #f5c43f;
-}
-
-.anchor{
-  padding-top: 60px;
-}
-
-#welcome, #myProjects, #contactMe {
-  margin-top: 30px;
+.content-div {
+  margin-top: 60px;
   margin-bottom: 20px;
 }
 
+.contact-imgs {
+  height: 50px;
+  width: 50px;
+}
+
+@media screen and (max-width: 485px){
+  .project-box{
+    height: 275px;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .banner-text{
+    font-size: 60px;
+  }
+  
+  .project-box{
+    height: 275px;
+  }
+  
+  #brand-img{
+    width: 225px;
+    height: 225px;
+  }
+}
+
 @media screen and (min-width: 992px){
-  #welcome, #myProjects, #contactMe {
-    height: 90vh;
+  .content-div {
+    height: 80vh;
     margin-top: 100px;
+  }
+  
+  .project-box{
+    height: 250px;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .project-box{
+    height: 225px;
   }
 }

@@ -15,7 +15,7 @@
         <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
     </head>
     <body>
-        <div class="anchor" id="headerBody">
+        <div id="headerBody"> <!--ANCHOR-->
             <nav class="simpleNav">
                 <div class="container">
                     <div class="nav-item">
@@ -31,12 +31,12 @@
             </nav>
         <!-- //////////////// LANDING PAGE ////////////////// -->
             <div class="container">
-                <div class="row text-center" id="welcome">
-                    <h1 class="hello">HELLO!</h1>
-                    <h1 class="hello">MY NAME IS <span style="color: #f5c43f;">BEN</span></h1>
+                <div class="row text-center content-div">
+                    <h1 class="banner-text">HELLO!</h1>
+                    <h1 class="banner-text">MY NAME IS <span style="color: #f5c43f;">BEN</span></h1>
                     <br><br>
-                    <img src="./images/logo-color-PNG-01.png" alt="Ben Lacy Logo" width="225px" height="225px">
-                    <br><br><br>
+                    <img src="./images/logo-color-PNG-01.png" alt="Ben Lacy Logo" id="brand-img">
+                    <br><br>
                     <h3>I'm a full-stack web developer with a love for coding, gaming, and all things tech.</h3>
 
                     <div class="col-sm-4 col-sm-offset-2">
@@ -57,91 +57,103 @@
             </div> <!-- Close #welcome Container -->
         </div> <!-- Close #headerBody Div -->
     <!-- //////////////// PROJECTS ////////////////// -->
-        <div class="anchor" id="projectBody">
+        <div id="projectBody"> <!--ANCHOR-->
             <div class="container">        
-                <div class="row text-center" id="myProjects">
-                    <h1 class="hello" >MY PROJECTS</h1>
+                <div class="row text-center content-div">
+                    <h1 class="banner-text">MY PROJECTS</h1>
                     <h3>Below are some of my latest projects. Check them out!</h3>
-                    <div class="col-md-4">
+                    <div class="col-sm-6">
                         <div class="project-box">
-                            <h4>Project Title</h4>
-                            <p>Short project description goes here. Blah Blah Blah.</p>
-                            <div class="row">
-                                <div class="col-xs-6 text-center">
-                                    <a href="#" class="project-link">Visit ></a>
+                            <h3><b>Untitled Angular</b></h3>
+                            <em><p>Angular 2+, Node.js, Bootstrap</p></em>
+                            <hr>
+                            <p>Tracks finance data and offers tools to display the data in a fancy table or graph format of the user's choosing.</p>
+                            <div class="row proj-link-div">
+                                <div class="col-xs-6">
+                                    <a href="#" class="project-link" target="_blank">Visit ></a>
                                 </div>
-                                <div class="col-xs-6 text-center">
-                                    <a href="#" class="project-link">GitHub ></a>
+                                <div class="col-xs-6">
+                                    <a href="#" class="project-link" target="_blank">GitHub ></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-sm-6">
                         <div class="project-box">
-                            <h4>Project Title</h4>
-                            <p>Short project description goes here. Blah Blah Blah.</p>
-                            <div class="row">
-                                <div class="col-xs-6 text-center">
-                                    <a href="#" class="project-link">Visit ></a>
+                            <h3><b>Inventory Master</b></h3>
+                            <em><p>MySQL, Express, Node.js, jQuery, Bootstrap</p></em>
+                            <hr>
+                            <p>Creates and manages inventory databases and offers several options for data-visualization.</p>
+                            <div class="row proj-link-div">
+                                <div class="col-xs-6">
+                                    <a href="#" class="project-link" target="_blank">Visit ></a>
                                 </div>
-                                <div class="col-xs-6 text-center">
-                                    <a href="#" class="project-link">GitHub ></a>
+                                <div class="col-xs-6">
+                                    <a href="#" class="project-link" target="_blank">GitHub ></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-sm-6">
                         <div class="project-box">
-                            <h4>Project Title</h4>
-                            <p>Short project description goes here. Blah Blah Blah.</p>
-                            <div class="row">
-                                <div class="col-xs-6 text-center">
-                                    <a href="#" class="project-link">Visit ></a>
+                            <h3><b>Friendr</b></h3>
+                            <em><p>MySQL, Express, Node.js, jQuery, Bootstrap</p></em>
+                            <hr>
+                            <p>Take the survey and open up your schedule this weekend as you are paired with compatible Friends in your area.</p>
+                            <div class="row proj-link-div">
+                                <div class="col-xs-6">
+                                    <a href="#" class="project-link" target="_blank">Visit ></a>
                                 </div>
-                                <div class="col-xs-6 text-center">
-                                    <a href="#" class="project-link">GitHub ></a>
+                                <div class="col-xs-6">
+                                    <a href="#" class="project-link" target="_blank">GitHub ></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-sm-6">
                         <div class="project-box">
-                            <h4>Project Title</h4>
-                            <p>Short project description goes here. Blah Blah Blah.</p>
-                            <div class="row">
-                                <div class="col-xs-6 text-center">
-                                    <a href="#" class="project-link">Visit ></a>
+                            <h3><b>Make the Call</b></h3>
+                            <em><p>Node.js, jQuery, API's, Bootstrap</p></em>
+                            <hr>
+                            <p>Calls several API's including Twitter, OMDB, Spotify, and Local Weather at the user's request and displays it uniquely.</p>
+                            <div class="row proj-link-div">
+                                <div class="col-xs-6">
+                                    <a href="#" class="project-link" target="_blank">Visit ></a>
                                 </div>
-                                <div class="col-xs-6 text-center">
-                                    <a href="#" class="project-link">GitHub ></a>
+                                <div class="col-xs-6">
+                                    <a href="#" class="project-link" target="_blank">GitHub ></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-sm-6">
                         <div class="project-box">
-                            <h4>Project Title</h4>
-                            <p>Short project description goes here. Blah Blah Blah.</p>
-                            <div class="row">
-                                <div class="col-xs-6 text-center">
-                                    <a href="#" class="project-link">Visit ></a>
+                            <h3><b>Trivia Flash!</b></h3>
+                            <em><p>Node.js, jQuery, Bootstrap</p></em>
+                            <hr>
+                            <p>A fun flashcard game for all ages. Choose your category and test your knowledge against 250 unique cards.</p>
+                            <div class="row proj-link-div">
+                                <div class="col-xs-6">
+                                    <a href="#" class="project-link" target="_blank">Visit ></a>
                                 </div>
-                                <div class="col-xs-6 text-center">
-                                    <a href="#" class="project-link">GitHub ></a>
+                                <div class="col-xs-6">
+                                    <a href="#" class="project-link" target="_blank">GitHub ></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-sm-6">
                         <div class="project-box">
-                            <h4>Project Title</h4>
-                            <p>Short project description goes here. Blah Blah Blah.</p>
-                            <div class="row">
-                                <div class="col-xs-6 text-center">
-                                    <a href="https://www.google.com" class="project-link" target="_blank">Visit ></a>
+                            <h3><b>Rock-Paper-Scissors</b></h3>
+                            <em><p>jQuery, Google Firebase, Bootstrap</p></em>
+                            <hr>
+                            <p>Rock-Paper-Scissors has been brought to the 21st century. Talk smack with your friends or play the computer for endless RPS fun!</p>
+                            <div class="row proj-link-div">
+                                <div class="col-xs-6">
+                                    <a href="#" class="project-link" target="_blank">Visit ></a>
                                 </div>
-                                <div class="col-xs-6 text-center">
-                                    <a href="https://www.github.com" class="project-link" target="_blank">GitHub ></a>
+                                <div class="col-xs-6">
+                                    <a href="#" class="project-link" target="_blank">GitHub ></a>
                                 </div>
                             </div>
                         </div>
@@ -150,42 +162,47 @@
             </div> <!-- Close #myProjects Container -->
         </div> <!-- Close #projectBody Div -->
     <!-- //////////////// CONTACT ME ////////////////// -->
-        <div class="anchor" id="contactBody">
+        <div id="contactBody"> <!--ANCHOR-->
             <div class="container">
-                <div class="row text-center" id="contactMe">
-                    <h1 class="hello" >LET'S CHAT</h1>
-                    <h3>I'd love to hear from you! Let's get in touch.</h3>
+                <div class="row text-center content-div">
+                    <h1 class="banner-text" >LET'S CHAT</h1>
+                    <h3>I'd love to hear from you! You can connect with me online or use the form below.</h3>
                     <br>
                     <div class="col-sm-12">
                         <div class="row">
                             <div class="col-xs-2 col-xs-offset-3">
                                 <a href="mailto:ben.lacy@outlook.com?Subject=Let's%20Talk" target="_blank">
-                                    <img src="./images/message-icon.png" alt="Email" height="50px" width="50px">
+                                    <img src="./images/message-icon.png" alt="E-Mail" class="contact-imgs">
                                 </a>
                             </div>
                             <div class="col-xs-2">
                                 <a href="http://www.linkedin.com/in/ben-lacy" target="_blank">
-                                    <img src="./images/linkedin-icon.png" alt="LinkedIn" height="50px" width="50px">
+                                    <img src="./images/linkedin-icon.png" alt="LinkedIn" class="contact-imgs">
                                 </a>
                             </div>
                             <div class="col-xs-2">
                                 <a href="https://github.com/ben-lacy" target="_blank">
-                                    <img src="./images/github-icon.png" alt="GitHub" height="50px" width="50px">
+                                    <img src="./images/github-icon.png" alt="GitHub" class="contact-imgs">
                                 </a>
                             </div>
                         </div>
                         <br>
                         <div class="row">
                             <div class="col-md-8 col-md-offset-2">
-                                <form>
+                                <form   action="https://formspree.io/ben.lacy@outlook.com"
+                                        method="POST">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                        <input type="text" name="Name" class="form-control" id="name" placeholder="Name">
                                     </div>
                                     <div class="form-group">
-                                        <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                        <input type="email" name="Email/Phone" class="form-control" id="email" placeholder="Email or Phone Number">
                                     </div>
                                     <div class="form-group">
-                                        <textarea class="form-control" rows="10" id="message" placeholder="Your Message"></textarea>
+                                        <textarea class="form-control" name="Message" rows="10" id="message" placeholder="Message"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="hidden" name="_next" value="#">
+                                        <input type="hidden" name="_subject" value="PORTFOLIO FORM">
                                     </div>
                                     <button type="submit" class="btn btn-warning">Submit</button>
                                 </form>
