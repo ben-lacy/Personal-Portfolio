@@ -4,6 +4,7 @@ body, html {
   font-family: 'Play', sans-serif;
   font-size: 18px;
 }
+
 a {
   color: #333;
 }
@@ -37,8 +38,7 @@ a {
   text-decoration: none;
 }
 
-#view-projects, 
-#contact-me {
+.welcome-buttons {
   margin-top: 30px;
   padding: 10px;
   border: solid 2px #333;
@@ -46,8 +46,7 @@ a {
   background-color: #f1f1f1;
 }
 
-#view-projects:hover,
-#contact-me:hover {
+.welcome-buttons:hover {
   background-color: #f5c43f;
   color: #333;
   text-decoration: underline;
@@ -60,7 +59,7 @@ a {
 
 .project-box{
   border: solid 2px #333;
-  height: 200px;
+  height: 250px;
   margin: 15px;
   padding: 10px;
   text-align: left;
