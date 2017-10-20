@@ -126,34 +126,34 @@
   }
 
   /* PROJECT BOX IMG HOVERS */
-    #ang-finance:hover {
-      background-image: url("../images/logo-color-PNG-01.png");
+    #ang-finance:hover,
+    #inv-master:hover,
+    #friendr:hover,
+    #make-the-call:hover,
+    #trivia-flash:hover,
+    #rps:hover {
+      background-image: url("../images/gray-background.jpg");
       background-size: cover;
     }
 
     #inv-master:hover {
-      background-image: url("../images/logo-color-PNG-01.png");
-      background-size: cover;
+      background-image: url("../images/gray-background.jpg");
     }
 
     #friendr:hover {
-      background-image: url("../images/logo-color-PNG-01.png");
-      background-size: cover;
+      background-image: url("../images/gray-background.jpg");
     }
 
     #make-the-call:hover {
-      background-image: url("../images/logo-color-PNG-01.png");
-      background-size: cover;
+      background-image: url("../images/gray-background.jpg");
     }
 
     #trivia-flash:hover {
-      background-image: url("../images/logo-color-PNG-01.png");
-      background-size: cover;
+      background-image: url("../images/gray-background.jpg");
     }
 
     #rps:hover {
-      background-image: url("../images/logo-color-PNG-01.png");
-      background-size: cover;
+      background-image: url("../images/gray-background.jpg");
     }
 
 /* ================ */
