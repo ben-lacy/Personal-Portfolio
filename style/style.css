@@ -8,6 +8,11 @@
     font-size: 18px;
   }
 
+  .content-div {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
   a,
   a:-webkit-any-link,
   a:-webkit-any-link:hover,
@@ -125,10 +130,8 @@
   /* PROJECT BOX IMG HOVERS */
     #ang-finance:hover,
     #inv-master:hover,
-    #friendr:hover,
     #make-the-call:hover,
-    #trivia-flash:hover,
-    #rps:hover {
+    #trivia-flash:hover {
       
     }
 
