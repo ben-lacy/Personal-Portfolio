@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/ben-lacy/Personal-Portfolio/issues"
   },
-  "homepage": "https://github.com/ben-lacy/Personal-Portfolio#readme"
+  "homepage": "https://github.com/ben-lacy/Personal-Portfolio#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "path": "^0.12.7"
+  }
 }
