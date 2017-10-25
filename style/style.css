@@ -2,7 +2,7 @@
 /* ==UNIVERSAL== */
 /* ============= */
   body, html {
-    background-image: url("/cream-paper.png");
+    background-image: url("../images/cream-paper.png");
     color: #333;
     font-family: 'Play', sans-serif;
     font-size: 18px;
@@ -37,7 +37,7 @@
   #projectBody{
     color: #e9e9e9;
     padding-bottom: 75px;
-    background-image: url("/project-background.png");
+    background-image: url("../images/project-background.png");
     border-top: solid 15px #f5c43f;
     border-bottom: solid 15px #f5c43f;
   }
