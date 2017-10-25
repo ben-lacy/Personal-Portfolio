@@ -86,7 +86,7 @@
     padding: 10px;
     border: solid 2px #333;
     font-weight: bold;
-    background-color: #f1f1f1;
+    background-color: #fff;
   }
 
   .welcome-buttons:hover {
@@ -117,10 +117,6 @@
   hr {
     border: solid 1px #333;
     margin: 5px;
-  }
-
-  .project-img {
-    
   }
 
   .project-link:hover{
