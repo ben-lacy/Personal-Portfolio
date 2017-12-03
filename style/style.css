@@ -2,15 +2,15 @@
 /* ==UNIVERSAL== */
 /* ============= */
   body, html {
-    background-color: #f3f3f3;
+    background-color: #fff;
     color: #333;
     font-family: 'Play', sans-serif;
     font-size: 18px;
   }
-
-  .content-div {
-    margin-top: 50px;
-    margin-bottom: 50px;
+  
+  p {
+    font-size: 16px;
+    padding: 5px;
   }
 
   a:-webkit-any-link,
@@ -20,215 +20,142 @@
     color: #333;
   }
 
-  a {
-    color: #333;
-  }
-  
-  h3 {
-    font-size: 16px;
-    padding: 5px;
+  .banner-text{                       /* PAGE HEADER */
+    font-size: 30px;
+    font-family: 'Permanent Marker', cursive;
   }
 
-  .banner-text{                       /* SECTION HEADERS */
-    font-size: 30px;
+  .sub-banner-text{                   /* SECTION HEADERS */
+    font-size: 20px;
     font-weight: bold;
+  }
+
+  .content-div {
+    padding: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 
 /* =============== */
 /* ==BACKGROUNDS== */
 /* =============== */
-  #headerBody {
-    padding-top: 50px;
+  #headerSection {
+    background: red;
+    background: -webkit-linear-gradient(#f5c43f, #fddc87); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#f5c43f, #fddc87); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#f5c43f, #fddc87); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#f5c43f, #fddc87); /* Standard syntax */
   }
 
-  #projectBody{
-    color: #e9e9e9;
-    padding-bottom: 75px;
-    background-image: url("../images/project-background.png");
-    border-top: solid 15px #f5c43f;
-    border-bottom: solid 15px #f5c43f;
+  #aboutMeSection {
+  }
+
+  #skillsetSection {
+    background-color: #e9e9e9;
+  }
+
+  #projectSection {
+  }
+  
+  #contactSection {
+    background-color: #e9e9e9;
   }
 
 /* ================= */
 /* ==NAVBAR STYLES== */
 /* ================= */
-  .simpleNav {
+  .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
     background-color: #f5c43f;
-    font-weight: bold;
-    width: 100%;
-    height: 60px;
-    box-shadow: 0 5px 6px -3px #999;
-    position: fixed;
-    top: 0;
-    z-index: 3;
+    border: none;
   }
 
-  .nav-item{
-    width: 33.3%;
-    text-align: center;
-    float: left;
-    font-size: 18px;
-    padding: 15px;
-  }
-
-  .nav-item > a:hover{
-    color: #fff;
-  }
-
-  .nav-item > a:focus {
-    color: #333;
-    text-decoration: none;
+  .navbar-brand {
+    font-family: 'Permanent Marker', cursive;
   }
 
 /* ======================= */
 /* ==LANDING PAGE STYLES== */
 /* ======================= */
-  #brand-img{
-    width: 100px;
-    height: 100px;
-    margin: 0;
-    padding: 0;
+  .contact-imgs {
+    height: 30px;
+    width: 30px;
+    margin: 5px;
   }
 
-  .welcome-buttons {
-    margin-top: 15px;
-    padding: 5px;
-    border: solid 2px #333;
-    font-weight: bold;
-    background-color: #fff;
+/* ABOUT ME */
+  #headshot-img {
+    height: 200px;
+    widght: 200px;
+    box-shadow: 3px 3px 5px #888888;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
-  .welcome-buttons:hover {
-    background-color: #f5c43f;
+/* SKILLS */
+  .skill-div {
+    padding: 10px;
+  }
+
+  .skill-img {
+    height: 80px;
+    width: 80px;
   }
 
 /* ========================== */
 /* ==PROJECT SECTION STYLES== */
 /* ========================== */
-  .project-box {
-    color: #333;
-    font-size: 16px;
-    background-color: #e9e9e9;
-    border: solid 2px #333;
-    height: 280px;
-    margin: 15px;
-    padding: 15px;
-    padding-top: 0;
-    text-align: center;
-  }
-
-  .proj-link-div{
-    width: 100%;
-    position: absolute;
-    bottom: 20px;
-    left: 10px;
-  }
-
-  hr {
+  .projects {
+    height: 150px;
     border: solid 1px #333;
-    margin: 5px;
+    margin: 10px;
   }
 
-  .project-link:hover{
-    color: #f5c43f !important;
+  .proj-img {
+    height: 100%;
+    background-color: red;
+    padding: 0;
+    margin: 0;
   }
-
-  /* PROJECT BOX IMG HOVERS */
-    #ang-finance:hover,
-    #inv-master:hover,
-    #make-the-call:hover,
-    #trivia-flash:hover {
-      
-    }
 
 /* ================ */
 /* ==CONTACT FORM== */
 /* ================ */
-  .contact-imgs {
-    height: 50px;
-    width: 50px;
-  }
 
-  .form-group > input,
-  .form-group > textarea {
-    font-size: 18px;
-  }
 
-  .btn-warning, .btn-warning:hover {
-    background-color: #f5c43f;
-    color: #333;
-    font-size: 18px;
-  }
+/* FOOTER */
+.footer {
+  color: #fff;
+  background-color: #333;
+  height: auto;
+  padding: 20px;
+}
 
 /* ================== */
 /* ==RESPONSIVENESS== */
 /* ================== */
-@media screen and (min-width: 400px){
-  .project-box{
-    height: 250px;
-  }
-}
-
 @media screen and (min-width: 485px){
   .banner-text{
-    font-size: 50px;
-  }
-
-  h3{
-    font-size: 20px;
-  }
-  
-  .project-box{
-    height: 225px;
-  }
-  
-  #brand-img{
-    width: 150px;
-    height: 150px;
+    font-size: 40px;
   }
 }
 
 @media screen and (min-width: 768px){
   .banner-text{
-    font-size: 70px;
+    font-size: 50px;
   }
 
-  h3{
-    font-size: 24px;
+  p{
+    font-size: 20px;
   }
 
-  .nav-item{
-    font-size: 24px;
-  }
-  
-  .project-box{
-    height: 275px;
-  }
-  
-  #brand-img{
-    width: 225px;
-    height: 225px;
-  }
 }
 
 @media screen and (min-width: 992px){
-  .content-div {
-    height: 80vh;
-    margin-top: 100px;
-  }
   
-  .project-box{
-    height: 225px;
-  }
 }
 
 @media screen and (min-width: 1200px){
-  .content-div {
-    height: 80vh;
-    margin-top: 100px;
-  }
   
-  .project-box{
-    height: 200px;
-  }
 }

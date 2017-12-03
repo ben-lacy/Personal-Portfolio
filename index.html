@@ -13,177 +13,296 @@
         <link href="./style/style.css" rel="stylesheet">
         <!-- FONTS -->
         <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
     </head>
     <body>
-        <div id="headerBody"> <!--ANCHOR-->
-            <nav class="simpleNav">
-                <div class="container">
-                    <div class="nav-item">
-                        <a href="#headerBody">Home</a>
-                    </div>
-                    <div class="nav-item">
-                        <a href="#projectBody">Projects</a>
-                    </div>
-                    <div class="nav-item">
-                        <a href="#contactBody">Contact</a>
-                    </div>
-                </div>
-            </nav>
-        <!-- //////////////// LANDING PAGE ////////////////// -->
-            <div class="container">
-                <div class="row text-center content-div">
-                    <h1 class="banner-text">HELLO!</h1>
-                    <h1 class="banner-text">MY NAME IS <span style="color: #f5c43f;">BEN</span></h1>
-                    <br>
-                    <img src="./images/logo-color-PNG-01.png" alt="Ben Lacy Logo" id="brand-img">
-                    <br>
-                    <h3>I'm a full-stack web developer with a love for coding, gaming, and all things tech.</h3>
-                    <br>
-                    <div class="col-sm-4 col-sm-offset-2">
-                        <a href="#projectBody">
-                            <div class="welcome-buttons">
-                                VIEW PROJECTS
-                            </div>
+        <nav class="navbar navbar-default">
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">BEN LACY</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SKILLS</a></li>
+                <li><a href="#">PROJECTS</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+            </div>
+        </nav>
+    <!-- //////////////// LANDING PAGE ////////////// -->
+        <section id="headerSection"> <!--ANCHOR-->
+            <div class="container content-div">
+                <div class="row text-center banner-text">
+                    <h1 class="">
+                        HELLO! I'M BEN.
+                    </h1>
+                    <h1 class="banner-text">I'M A WEB DEVELOPER.</h1>
+                    <div class="col-xs-12 text-center">
+                        <a href="mailto:hello@benlacy.me?Subject=Let's%20Talk" target="_blank">
+                            <img src="./images/contact-logos/message-icon-white.png" alt="E-Mail" class="contact-imgs">
+                        </a>
+                        <a href="http://www.linkedin.com/in/ben-lacy" target="_blank">
+                            <img src="./images/contact-logos/linkedin-icon-white.png" alt="LinkedIn" class="contact-imgs">
+                        </a>
+                        <a href="https://github.com/ben-lacy" target="_blank">
+                            <img src="./images/contact-logos/github-icon-white.png" alt="GitHub" class="contact-imgs">
                         </a>
                     </div>
-                    <div class="col-sm-4">
-                        <a href="#contactBody">
-                            <div class="welcome-buttons">
-                                CONTACT ME
-                            </div>
-                        </a>
+                </div>
+            </div> <!-- Close Container -->
+        </section> <!-- Close #headerBody Section -->
+    <!-- //////////////// ABOUT ME ////////////////// -->
+        <section id="aboutMeSection"> <!--ANCHOR-->
+            <div class="container content-div">
+                <div class="row text-center">
+                    <h4 class="sub-banner-text">
+                        About Me
+                    </h4>
+                    <div class="col-xs-12 col-md-3">
+                        <img src="./images/headshot.jpg" id="headshot-img" alt="Ben Lacy Headshot">
+                    </div>
+                    <div class="col-xs-12 col-md-9 text-left">
+                        <p> I am a full-stack web development professional with experience developing 
+                        in both the React and Angular 2+ environments. Major technologies I've 
+                        used include HTML, CSS, JavaScript, Node.js, Express, MySQL, Mongo, Mongoose, 
+                        and Handlebars.js. 
+                        <br><br>
+                         I am always expanding that experience and seeking new 
+                        avenues to explore. I have an extensive professional background in the human 
+                        resources and customer service industries that have allowed me to exercise 
+                        my skills in innovation, leadership, and teamwork. </p>
                     </div>
                 </div>
-            </div> <!-- Close #welcome Container -->
-        </div> <!-- Close #headerBody Div -->
+            </div> <!-- Close Container -->
+        </section> <!-- Close #aboutMe Section -->
+    <!-- //////////////// SKILLSET ////////////////// -->
+        <section id="skillsetSection"> <!--ANCHOR-->
+            <div class="container content-div">
+                <div class="row text-center">
+                    <h4 class="sub-banner-text">
+                        Skillset
+                    </h4>
+                    <div class="col-xs-12">
+                        <p>With more to come!</p>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="col-xs-4 col-sm-3 col-md-2 col-md-offset-1 skill-div">
+                            <img src="./images/skill-logos/html.png" class="skill-img" alt="HTML5 Logo">
+                            <p>HTML</p>
+                        </div>
+                        <div class="col-xs-4 col-sm-3 col-md-2 skill-div">
+                            <img src="./images/skill-logos/css.png" class="skill-img" alt="CSS3 Logo">
+                            <p>CSS</p>
+                        </div>
+                        <div class="col-xs-4 col-sm-3 col-md-2 skill-div">
+                            <img src="./images/skill-logos/js.png" class="skill-img" alt="JavaScript Logo">
+                            <p>JavaScript</p>
+                        </div>
+                        <div class="col-xs-4 col-sm-3 col-md-2 skill-div">
+                            <img src="./images/skill-logos/node.png" class="skill-img" alt="Node Logo">
+                            <p>Node</p>
+                        </div>
+                        <div class="col-xs-4 col-sm-3 col-md-2 skill-div">
+                            <img src="./images/skill-logos/bootstrap.png" class="skill-img" alt="Bootstrap Logo">
+                            <p>Bootstrap</p>
+                        </div>
+                        <div class="col-xs-4 col-sm-3 col-md-2 col-md-offset-1 skill-div">
+                            <img src="./images/skill-logos/express.png" class="skill-img" alt="Express Logo">
+                            <p>Express</p>
+                        </div>
+                        <div class="col-xs-4 col-sm-3 col-md-2 skill-div">
+                            <img src="./images/skill-logos/mongodb.png" class="skill-img" alt="MongoDB Logo">
+                            <p>MongoDB</p>
+                        </div>
+                        <div class="col-xs-4 col-sm-3 col-md-2 skill-div">
+                            <img src="./images/skill-logos/react.png" class="skill-img" alt="React Logo">
+                            <p>React</p>
+                        </div>
+                        <div class="col-xs-4 col-sm-3 col-md-2 skill-div">
+                            <img src="./images/skill-logos/mysql.png" class="skill-img" alt="MySQL Logo">
+                            <p>MySQL</p>
+                        </div>
+                        <div class="col-xs-4 col-sm-3 col-md-2 skill-div">
+                            <img src="./images/skill-logos/handlebars.png" class="skill-img" alt="Handlebars Logo">
+                            <p>Handlebars</p>
+                        </div>
+                        <div class="col-xs-4 col-sm-3 col-md-2 col-md-offset-1 skill-div">
+                            <img src="./images/skill-logos/sequelize.png" class="skill-img" alt="Sequelize Logo">
+                            <p>Sequelize</p>
+                        </div>
+                        <div class="col-xs-4 col-sm-3 col-md-2 skill-div">
+                            <img src="./images/skill-logos/mongoose.png" class="skill-img" alt="Mongoose Logo">
+                            <p>Mongoose</p>
+                        </div>
+                        <div class="col-xs-4 col-sm-3 col-md-2 skill-div">
+                            <img src="./images/skill-logos/git.png" class="skill-img" alt="Git Logo">
+                            <p>Git</p>
+                        </div>
+                        <div class="col-xs-4 col-sm-3 col-md-2 skill-div">
+                            <img src="./images/skill-logos/npm.png" class="skill-img" alt="NPM Logo">
+                            <p>NPM</p>
+                        </div>
+                        <div class="col-xs-4 col-sm-3 col-md-2 skill-div">
+                            <img src="./images/skill-logos/Heroku.png" class="skill-img" alt="Heroku Logo">
+                            <p>Heroku</p>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- Close Container -->
+        </section> <!-- Close #aboutMe Section -->
     <!-- //////////////// PROJECTS ////////////////// -->
-        <div id="projectBody"> <!--ANCHOR-->
-            <div class="container">
-                <div class="row text-center content-div">
-                    <h1 class="banner-text">MY PROJECTS</h1>
-                    <h3>Below are some of my latest projects. Check them out!</h3>
-                    <div class="col-sm-6">  
-                        <div class="project-box" id="n-stock">
-                            <h3><b>N-Stock</b></h3>
-                            <em><p>MySQL, Node, Express, Handlebars, JavaScript/jQuery, Bootstrap</p></em>
-                            <hr>
-                            <p>Manages an inventory database and offers several options for visualizing the data.</p>
-                            <div class="row proj-link-div">
-                                <div class="col-xs-6">
-                                    <a href="https://n-stock.herokuapp.com" class="project-link" target="_blank"><b>Visit ></b></a>
-                                </div>
-                                <div class="col-xs-6">
-                                    <a href="https://github.com/ben-lacy/n-stock" class="project-link" target="_blank"><b>GitHub ></b></a>
-                                </div>
+        <section id="projectSection"> <!--ANCHOR-->
+            <div class="container content-div">
+                <div class="row text-center">
+                    <h4 class="sub-banner-text">
+                        Projects
+                    </h4>
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="row projects">
+                            <div class="col-xs-4 proj-img" id="proj-img-calcuplus">
+                            </div>
+                            <div class="col-xs-8 proj-text">
+                                <p>CALCU</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6">
-                        <div class="project-box" id="weather-aware">
-                            <h3><b>WeatherAware</b></h3>
-                            <em><p>Node, Express, JavaScript/jQuery, Bootstrap</p></em>
-                            <hr>
-                            <p>Uses the Weather-JS node package to display weather data for the location of your choosing.</p>
-                            <div class="row proj-link-div">
-                                <div class="col-xs-6">
-                                    <a href="https://weather-aware.herokuapp.com" class="project-link" target="_blank"><b>Visit ></b></a>
-                                </div>
-                                <div class="col-xs-6">
-                                    <a href="https://github.com/ben-lacy/weather-aware" class="project-link" target="_blank"><b>GitHub ></b></a>
-                                </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="row projects">
+                            <div class="col-xs-4 proj-img" id="proj-img-react2">
+                            </div>
+                            <div class="col-xs-8 proj-text">
+                                <p>REACT2</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6">
-                        <div class="project-box" id="trivia-flash">
-                            <h3><b>Trivia Flash!</b></h3>
-                            <em><p>Node, Express, JavaScript/jQuery, Bootstrap</p></em>
-                            <hr>
-                            <p>A fun trivia game for everyone. Choose your category and test your knowledge against hundreds of unique questions.</p>
-                            <div class="row proj-link-div">
-                                <div class="col-xs-6">
-                                    <a href="http://trivia-flash.herokuapp.com/" class="project-link" target="_blank"><b>Visit ></b></a>
-                                </div>
-                                <div class="col-xs-6">
-                                    <a href="https://github.com/ben-lacy/trivia-flash" class="project-link" target="_blank"><b>GitHub ></b></a>
-                                </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="row projects">
+                            <div class="col-xs-4 proj-img" id="proj-img-nstock">
+                            </div>
+                            <div class="col-xs-8 proj-text">
+                                <p>NSTOCK</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6">
-                        <div class="project-box" id="calcu-plus">
-                            <h3><b>Calcu-Plus</b></h3>
-                            <em><p>Angular 2+, Node, Express, Bootstrap</p></em>
-                            <hr>
-                            <p><em>--UNDER CONSTRUCTION--</em> Comprehensive Angular application for creating, using, and sharing online calculator tools.</p>
-                            <div class="row proj-link-div">
-                                <div class="col-xs-6">
-                                    <a href="#" class="project-link" target="_blank"><s><b>Visit ></b></s></a>
-                                </div>
-                                <div class="col-xs-6">
-                                    <a href="#" class="project-link" target="_blank"><s><b>GitHub ></b></s></a>
-                                </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="row projects">
+                            <div class="col-xs-4 proj-img" id="proj-img-weather">
+                            </div>
+                            <div class="col-xs-8 proj-text">
+                                <p>WEATHER</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="row projects">
+                            <div class="col-xs-4 proj-img" id="proj-img-mongo">
+                            </div>
+                            <div class="col-xs-8 proj-text">
+                                <p>MONGO</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <div class="row projects">
+                            <div class="col-xs-4 proj-img" id="proj-img-trivia">
+                            </div>
+                            <div class="col-xs-8 proj-text">
+                                <p>TRIVIA</p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div> <!-- Close #myProjects Container -->
-        </div> <!-- Close #projectBody Div -->
-    <!-- //////////////// CONTACT ME ////////////////// -->
-        <div id="contactBody"> <!--ANCHOR-->
-            <div class="container">
-                <div class="row text-center content-div">
-                    <br><br><br>
-                    <h1 class="banner-text" >LET'S CHAT</h1>
-                    <h3>I'd love to hear from you! You can connect with me online or use the form below.</h3>
-                    <div class="col-sm-12">
-                        <div class="row">
-                            <div class="col-xs-2 col-xs-offset-3">
-                                <a href="mailto:ben.lacy@outlook.com?Subject=Let's%20Talk" target="_blank">
-                                    <img src="./images/message-icon-white.png" alt="E-Mail" class="contact-imgs">
-                                </a>
-                            </div>
-                            <div class="col-xs-2">
-                                <a href="http://www.linkedin.com/in/ben-lacy" target="_blank">
-                                    <img src="./images/linkedin-icon-white.png" alt="LinkedIn" class="contact-imgs">
-                                </a>
-                            </div>
-                            <div class="col-xs-2">
-                                <a href="https://github.com/ben-lacy" target="_blank">
-                                    <img src="./images/github-icon-white.png" alt="GitHub" class="contact-imgs">
-                                </a>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="row">
-                            <div class="col-md-8 col-md-offset-2">
-                                <form   action="https://formspree.io/ben.lacy@outlook.com"
-                                        method="POST">
-                                    <div class="form-group">
-                                        <input type="text" name="Name" class="form-control" id="name" placeholder="Name">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="text" name="Email/Phone" class="form-control" id="email" placeholder="Email or Phone Number">
-                                    </div>
-                                    <div class="form-group">
-                                        <textarea class="form-control" name="Message" rows="5" id="message" placeholder="Message"></textarea>
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="hidden" name="_next" value="#">
-                                        <input type="hidden" name="_subject" value="PORTFOLIO FORM">
-                                    </div>
+            </div> <!-- Close Container -->
+        </section> <!-- Close #projectBody Section -->
+    <!-- //////////////// CONTACT ME //////////////// -->
+        <section id="contactSection"> <!--ANCHOR-->
+            <div class="container content-div">
+                <div class="row text-center">
+                    <h4 class="sub-banner-text">
+                        Let's get in touch!
+                    </h4>
+                    <div class="row">
+                        <p>I'd love to hear from you! You can connect with me online or use the form below.</p>
+                        <div class="col-xs-4 col-sm-2 col-sm-offset-3">
+                            <p>
+                                <a href="mailto:hello@benlacy.me?Subject=Let's%20Talk" target="_blank">
+                                    <img src="./images/contact-logos/message-icon-white.png" alt="E-Mail" class="contact-imgs">
                                     <br>
-                                    <button type="submit" class="btn btn-warning">Submit</button>
-                                </form>
+                                    EMAIL
+                                </a>
+                            </p>
+                        </div>
+                        <div class="col-xs-4 col-sm-2">
+                            <p>
+                                <a href="http://www.linkedin.com/in/ben-lacy" target="_blank">
+                                    <img src="./images/contact-logos/linkedin-icon-white.png" alt="LinkedIn" class="contact-imgs">
+                                    <br>
+                                    LINKEDIN
+                                </a>
+                            </p>
+                        </div>
+                        <div class="col-xs-4 col-sm-2">
+                            <p>
+                                <a href="https://github.com/ben-lacy" target="_blank">
+                                    <img src="./images/contact-logos/github-icon-white.png" alt="GitHub" class="contact-imgs">
+                                    <br>
+                                    GITHUB
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="row">
+                                <div class="col-md-8 col-md-offset-2">
+                                    <form action="https://formspree.io/ben.lacy@outlook.com" method="POST">
+                                        <div class="form-group">
+                                            <input type="text" name="Name" class="form-control" id="name" placeholder="Name">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" name="Email/Phone" class="form-control" id="email" placeholder="Email or Phone Number">
+                                        </div>
+                                        <div class="form-group">
+                                            <textarea class="form-control" name="Message" rows="5" id="message" placeholder="Message"></textarea>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="hidden" name="_next" value="#">
+                                            <input type="hidden" name="_subject" value="PORTFOLIO FORM">
+                                        </div>
+                                        <br>
+                                        <button type="submit" class="btn btn-warning">Submit</button>
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div> <!-- Close #contactMe Container -->
-        </div> <!-- Close #contactBody Div -->
+            </div> <!-- Close Container -->
+        </section> <!-- Close #contactBody Section -->
+    <!-- //////////////// FOOTER //////////////// -->
+        <footer class="footer">
+            <div class="container text-center">
+                <div class="row">
+                    
+                    
+                    
+                </div>
+                <div class="row">
+                    <h4>&copy; 2017 - All Rights Reserved | Made by Ben Lacy</h4>
+                </div>
+            </div> <!-- Close Footer Container -->
+        </footer>
 
         <!-- jQuery -->
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <!-- Bootstrap -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <!-- JS -->
         <script>
             // SMOOTH SCROLLING
