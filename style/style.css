@@ -84,7 +84,7 @@
   }
   #positioner{
     position: relative;
-    top: 45%;
+    top: 50%;
     transform: translateY(-50%);
   }
   .header-contact-imgs {
