@@ -146,7 +146,13 @@
     font-weight: bold;
     font-size: 18px;
   }
-  .proj-text-header > a {
+  .proj-br{
+    display: block;
+  }
+  .proj-links{
+    font-size: 14px;
+  }
+  .proj-links > a {
     color: #2e77ff;
     text-decoration: underline;
   }
@@ -214,6 +220,12 @@
       text-align: left;
       font-size: 20px;
     }
+    .proj-br{
+      display: none;
+    }
+    .proj-links{
+      font-size: 16px;
+    }
     .proj-text-sub-header{
       text-align: left;
       font-size: 16px;
@@ -241,6 +253,9 @@
     }
     .proj-text-header{
       font-size: 24px;
+    }
+    .proj-links{
+      font-size: 18px;
     }
     .proj-text-sub-header{
       font-size: 18px;
@@ -272,6 +287,9 @@
     }
     .proj-text-header{
       font-size: 16px;
+    }
+    .proj-links{
+      font-size: 14px;
     }
     .proj-text-sub-header{
       font-size: 14px;
