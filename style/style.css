@@ -205,33 +205,23 @@
     }
     .proj-img {
       height: 200px;
-      width: auto;
-      padding: 0;
-      margin: 0;
     }
     .proj-text-div{
       background-color: #e9e9e9;
       height: 200px;
-      padding: 10px;
     }
     .proj-text-header{
       text-align: left;
-      font-weight: bold;
-      font-size: 16px;
-    }
-    .proj-text-header > a {
-      color: #2e77ff;
-      text-decoration: underline;
+      font-size: 20px;
     }
     .proj-text-sub-header{
       text-align: left;
-      font-style: italic;
-      font-size: 14px;
+      font-size: 16px;
     }
     .proj-text{
       text-align: left;
       padding-top: none;
-      font-size: 16px;
+      font-size: 18px;
     }
   }
 
