@@ -85,7 +85,7 @@
   #positioner{
     position: relative;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-40%);
   }
   .header-contact-imgs {
     height: 30px;
