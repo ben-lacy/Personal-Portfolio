@@ -8,7 +8,6 @@
   
   p {
     font-size: 16px;
-    padding: 5px;
   }
 
   a {
@@ -109,6 +108,14 @@
     margin-top: 10px;
     margin-bottom: 10px;
   }
+  #resume-link{
+    color: #3b84d8;
+    text-decoration: underline;
+    text-align: center;
+  }
+  #bio-text {
+    padding: 5px;
+  }
 
 /* ==SKILLS SECTION== */
   #skillsetSection {
@@ -191,7 +198,7 @@
       font-size: 45px;
     }
     p{
-      font-size: 20px;
+      font-size: 18px;
     }
     .contact-imgs {
       height: 35px;
@@ -203,6 +210,9 @@
     }
     #headshot-img {
       height: 300px;
+    }
+    #resume-link{
+      text-align: left;
     }
     .projects {
       background-color: transparent;
@@ -242,7 +252,7 @@
       font-size: 50px;
     }
     p{
-      font-size: 22px;
+      font-size: 20px;
     }
     #headshot-img {
       height: 250px;
@@ -269,15 +279,15 @@
     .banner-text{
       font-size: 60px;
     }
+    p{
+      font-size: 22px;
+    }
     .header-contact-imgs {
       height: 50px;
       width: 50px;
     }
     #headshot-img {
       height: 300px;
-    }
-    #bio-text{
-      padding: 15px;
     }
     .proj-img {
       height: 150px;
