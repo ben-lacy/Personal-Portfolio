@@ -1,6 +1,8 @@
 # Personal Portfolio
 
-Hosted online: [Link](www.benlacy.me)
+## Update 2021 - This was my post-bootcamp portfolio. I do not currently have an updated version. Please contact me at bslacy.tx@gmail.com with questions.
+
+Hosted via GitHub Pages here: [Link](https://ben-lacy.github.io/Personal-Portfolio/)
 
 ![Portfolio Screenshot](./images/portfolio-screenshot.png)
 
